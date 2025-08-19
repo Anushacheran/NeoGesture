@@ -1,13 +1,104 @@
+# Python bytecode
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 *.swp
 .Python
+
+# Virtual environments
 env/
 venv/
+.venv
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
 .idea/
 .vscode/
+.spyderproject
+.spyproject
+.ropeproject
+
+# OS files
 .DS_Store
+
+# Databases
 *.db
 *.sqlite3
+db.sqlite3
+db.sqlite3-journal
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Build / distribution
+build/
+dist/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Logs
+*.log
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py.cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Jupyter / IPython
+.ipynb_checkpoints
+profile_default/
+ipython_config.py
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Cython
+cython_debug/
+
+# Pyre / pytype / mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# Misc
+*.sage.py
+.site
+.pdm-python
+.pdm-build/
+.pixi
+__pypackages__/
+.marimo/
+.cursorignore
+.cursorindexingignore
