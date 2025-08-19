@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #1e1e1e;
+    color: white;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+.buttons {
+    margin: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.instructions {
+    text-align: left;
+    width: 80%;
+    margin: 20px auto;
+    background-color: #333;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.instructions ul {
+    list-style-type: none;
+    padding-left: 0;
+}
